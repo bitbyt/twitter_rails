@@ -3,6 +3,6 @@ class ApplicationController < ActionController::Base
 end
 
 
-def Welcome
+def welcome
   render html: "Hello, rails!"
 end
